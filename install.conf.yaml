@@ -10,3 +10,4 @@
     ~/.oh-my-zsh: oh-my-zsh/
     ~/.hyper.js: hyper.js
     ~/.hyper_plugins/: hyper_plugins/
+    ~/.vscode: vscode/ 
