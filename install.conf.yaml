@@ -3,11 +3,12 @@
 - shell:
   - [git submodule update --init, Installing submodules]
   - ['cd janus && rake', Run rake in ./janus]
+  - ['ruby -e "$( curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install )"', Install homebrew]
 
 - link:
     ~/.dotfiles: ''
     ~/.zshrc: zshrc
     ~/.oh-my-zsh: oh-my-zsh/
     ~/.hyper.js: hyper.js
-    ~/.hyper_plugins/: hyper_plugins/
+    ~/.hyper_plugins: hyper_plugins/
     ~/.vscode: vscode/ 
